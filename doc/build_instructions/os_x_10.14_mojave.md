@@ -7,7 +7,7 @@
 brew update-reset && brew update
 brew tap homebrew/cask-fonts
 brew cask install font-dejavu-sans
-brew install cmake python3 libepoxy freetype fontconfig harfbuzz sdl2 sdl2_image opus libogg opusfile libpng
+brew install cmake python3 libepoxy freetype fontconfig harfbuzz sdl2 sdl2_image opus libogg opusfile libpng eigen
 brew install qt5
 brew install -cc=clang llvm@8
 export PATH="/usr/local/opt/llvm@8/bin:$PATH:/usr/local/lib:/usr/local/opt/llvm/bin"
